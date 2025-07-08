@@ -223,7 +223,7 @@ export default function Home() {
                         ) : (
                           <div className="text-center text-gray-500">
                             <div className="text-4xl mb-3">👤</div>
-                            <p className="font-medium">Click "Virtual Try-On" to see how it looks!</p>
+                            <p className="font-medium">Click &quot;Virtual Try-On&quot; to see how it looks!</p>
                           </div>
                         )}
                       </div>
