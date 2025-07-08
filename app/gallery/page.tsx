@@ -36,10 +36,7 @@ export default function BrandShowcase() {
     { key: 'casual', label: '👕 Casual', icon: '🌟' }
   ];
 
-  const allItems = brandData ? [
-    ...brandData.brandItems.dresses,
-    ...brandData.brandItems.casual
-  ] : [];
+
 
   const filteredItems = brandData ? brandData.brandItems[selectedCategory as keyof typeof brandData.brandItems] || [] : [];
 
@@ -77,7 +74,7 @@ export default function BrandShowcase() {
             🛍️ Luxury Collection
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Browse exclusive pieces from the world's most prestigious fashion houses. Each item is carefully curated for style, quality, and luxury.
+            Browse exclusive pieces from the world&apos;s most prestigious fashion houses. Each item is carefully curated for style, quality, and luxury.
           </p>
         </div>
 

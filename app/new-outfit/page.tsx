@@ -70,7 +70,7 @@ export default function NewOutfit() {
             🤖 AI Custom Generator
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Tell our AI about your preferences and we'll generate a completely custom outfit tailored just for you using advanced style algorithms.
+            Tell our AI about your preferences and we&apos;ll generate a completely custom outfit tailored just for you using advanced style algorithms.
           </p>
         </div>
 
@@ -85,7 +85,7 @@ export default function NewOutfit() {
               {/* Weather Selection */}
               <div className="space-y-4">
                 <label className="block text-lg font-semibold text-gray-700">
-                  🌤️ What's the weather like?
+                                      🌤️ What&apos;s the weather like?
                 </label>
                 <div className="grid grid-cols-2 gap-3">
                   {weatherOptions.map(option => (
@@ -107,7 +107,7 @@ export default function NewOutfit() {
               {/* Style Selection */}
               <div className="space-y-4">
                 <label className="block text-lg font-semibold text-gray-700">
-                  💫 What's your vibe today?
+                                      💫 What&apos;s your vibe today?
                 </label>
                 <div className="grid grid-cols-2 gap-3">
                   {styleOptions.map(option => (
