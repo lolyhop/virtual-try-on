@@ -1,24 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Virtual Try-On App MVP
+
+A minimalist virtual try-on application built with Next.js and React, featuring a clean desktop interface for outfit creation and management.
+
+## Features
+
+- **Main Screen**: Browse saved outfits with quick navigation
+- **Gallery**: View clothing items organized by categories (T-shirts, Skirts, Jackets, Dresses, Trousers, Shoes)
+- **New Outfit**: Create outfits with form inputs (Weather, Style, Type)
+- **Generate**: AI-powered outfit generation with extended options (Weather, Style, Type, Colour, Purpose)
+
+## Tech Stack
+
+- Next.js 14 with App Router
+- React with TypeScript
+- Tailwind CSS for styling
+- JSON database for clothing items
+- Unsplash images for clothing visuals
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+├── app/
+│   ├── page.tsx          # Main screen
+│   ├── gallery/          # Gallery page
+│   ├── new-outfit/       # New outfit creation
+│   ├── generate/         # AI outfit generation
+│   └── api/clothing/     # API route for clothing data
+├── data/
+│   └── clothing.json     # Clothing database
+└── README.md
+```
+
+## MVP Features
+
+- Responsive desktop design
+- Clean, minimal UI without excessive comments
+- JSON-based clothing database
+- Simulated AI outfit generation
+- Navigation between all screens
+- Form validation and user feedback
 
 ## Learn More
 

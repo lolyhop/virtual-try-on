@@ -1,0 +1,55 @@
+{
+    "brandItems": {
+        "dresses": [
+            {
+                "id": 1,
+                "name": "Elegant Evening Dress",
+                "brand": "Gucci",
+                "price": "$2,850",
+                "imageUrl": "/data/images/red_dress.png",
+                "type": "dress",
+                "description": "Luxurious silk evening dress with contemporary silhouette"
+            },
+            {
+                "id": 2,
+                "name": "Sequined Party Dress",
+                "brand": "Versace",
+                "price": "$3,200",
+                "imageUrl": "/data/images/party_dress.png",
+                "type": "dress",
+                "description": "Glamorous sequined dress perfect for special occasions"
+            }
+        ],
+        "casual": [
+            {
+                "id": 3,
+                "name": "Premium Casual Set",
+                "brand": "Prada",
+                "price": "$1,650",
+                "imageUrl": "/data/images/casual.png",
+                "type": "set",
+                "description": "High-end casual outfit combining comfort with luxury"
+            }
+        ]
+    },
+    "savedOutfits": [
+        {
+            "id": 1,
+            "name": "Red Dress",
+            "imageUrl": "/data/images/red_dress.png",
+            "description": "Elegant red dress perfect for special occasions"
+        },
+        {
+            "id": 2,
+            "name": "Casual Look",
+            "imageUrl": "/data/images/casual.png",
+            "description": "Comfortable casual outfit for everyday wear"
+        },
+        {
+            "id": 3,
+            "name": "Party Dress",
+            "imageUrl": "/data/images/party_dress.png",
+            "description": "Stunning party dress for evening events"
+        }
+    ]
+}
