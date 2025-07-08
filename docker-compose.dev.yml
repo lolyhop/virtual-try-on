@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  virtual-try-on-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: virtual-try-on-dev
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+      - HOSTNAME=0.0.0.0
+      - WATCHPACK_POLLING=true
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    restart: unless-stopped
+    networks:
+      - virtual-try-on-dev-network
+
+networks:
+  virtual-try-on-dev-network:
+    driver: bridge 
